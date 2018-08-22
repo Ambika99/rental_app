@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">rental_app</string>
     <string name="title_activity_phone_verifivation">phone_verifivation</string>
+    <string name="google_API_Key">AIzaSyD5baHXb6XoFKeyzoyAAVl9zPzsigbUccM</string>
 </resources>

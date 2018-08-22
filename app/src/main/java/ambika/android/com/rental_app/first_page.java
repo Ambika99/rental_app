@@ -13,7 +13,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
 public class first_page extends AppCompatActivity {
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "first_page";
     private static final int ERROR_DIALOG_REQUEST = 9001;
 
 

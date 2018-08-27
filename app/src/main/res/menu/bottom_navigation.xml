@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bookRide"
+        android:title="Book Your Ride"
+        android:icon="@drawable/ic_format_bold_black_24dp"/>
+    <item
+        android:id="@+id/viewRide"
+        android:title="Review Bookings"
+        android:icon="@drawable/ic_directions_bike_black_24dp"/>
+    <item
+        android:id="@+id/otherOptions"
+        android:title="Options"
+        android:icon="@drawable/ic_person_pin_black_24dp"/>
+
+</menu>

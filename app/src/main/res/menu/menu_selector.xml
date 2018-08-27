@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navBook"
+        android:title="Book A Ride"/>
+    <item android:id="@+id/navCheck"
+        android:title="Check Confirmed Rides"/>
+    <item android:id="@+id/navLogout"
+        android:title="Sign Out"/>
+</menu>

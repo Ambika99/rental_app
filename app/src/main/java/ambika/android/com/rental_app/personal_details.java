@@ -51,7 +51,7 @@ public class personal_details extends AppCompatActivity {
             public void onDataChange(DataSnapshot snapshot) {
                 if (snapshot.hasChild("Name")) {
                     Intent map = new Intent();
-                    map.setClass(personal_details.this,first_page.class);
+                    map.setClass(personal_details.this,home.class);
                     startActivity(map);
                     finish();
                 }
@@ -76,7 +76,7 @@ public class personal_details extends AppCompatActivity {
                     myref.child("Name").setValue(cust_name);
                     myref.child("Mobile Number").setValue(mobile);
                     Intent done = new Intent();
-                    done.setClass(personal_details.this,first_page.class);
+                    done.setClass(personal_details.this,home.class);
                     startActivity(done);
                 }
 

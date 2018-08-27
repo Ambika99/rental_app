@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="book a ride"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:id="@+id/bookButton"
+        />
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="check your bookings"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:id="@+id/checkButton"
+        android:layout_below="@+id/bookButton"
+        />
+
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="options"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:id="@+id/optionsButton"
+        android:layout_below="@+id/checkButton"
+        />
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="sign out"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:id="@+id/signOutButton"
+        android:layout_below="@+id/optionsButton"
+        />
+
+</RelativeLayout>

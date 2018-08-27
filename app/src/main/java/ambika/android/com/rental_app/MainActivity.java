@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             extraButtons.setVisibility(View.VISIBLE);
         }
     };
-    Button signUp;
+    Button signUpbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,12 +53,14 @@ public class MainActivity extends AppCompatActivity {
         loginDetails = (RelativeLayout) findViewById(R.id.loginDetails);
         extraButtons = (RelativeLayout) findViewById(R.id.extraButton);
         handler.postDelayed(runnable,2000);
-        signUp = (Button) findViewById(R.id.signUpButton);
-        signUp.setOnClickListener(new View.OnClickListener() {
+        signUpbtn = (Button) findViewById(R.id.signUpButton);
+        signUpbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(MainActivity.this,sign_up.class);
+                Intent in = new Intent();
+                in.setClass(MainActivity.this,sign_up.class);
                 startActivity(in);
+                finish();
             }
         });
         progress = new ProgressDialog(this);

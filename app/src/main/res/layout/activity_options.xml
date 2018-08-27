@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pptions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/aboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+                ​
+                <FrameLayout
+                    android:id="@+id/contentAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:text="ABOUT US STUFF"/>
+                </FrameLayout>
+                ​
+                <FrameLayout
+                    android:id="@+id/titleAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/cellborder"
+                        android:text="ABOUT US"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+                </FrameLayout>
+                ​
+            </com.ramotion.foldingcell.FoldingCell>
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/contactUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/aboutUs"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+                ​
+                <FrameLayout
+                    android:id="@+id/contentContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:text="HOW TO CONTACT US"/>
+                </FrameLayout>
+                ​
+                <FrameLayout
+                    android:id="@+id/titleContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/cellborder"
+                        android:text="CONTACT US"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+                </FrameLayout>
+                ​
+            </com.ramotion.foldingcell.FoldingCell>
+
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/prices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/contactUs"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+                ​
+                <FrameLayout
+                    android:id="@+id/cell_content_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="gone">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/prices"
+                        />
+                </FrameLayout>
+                ​
+                <FrameLayout
+                    android:id="@+id/cell_title_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/cellborder"
+                        android:text="ABOUT US"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="30dp"/>
+                </FrameLayout>
+                ​
+            </com.ramotion.foldingcell.FoldingCell>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

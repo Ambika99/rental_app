@@ -8,5 +8,8 @@
     <color name="gradientStart">#32CD32</color>
     <color name="gradientEnd">#00ff7f</color>
     <color name="gradientCentre">#ADFF2F</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparent">#0000ffff</color>
+    <color name="colorBackground">#fff8dc</color>
 
 </resources>

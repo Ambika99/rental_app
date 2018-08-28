@@ -40,11 +40,11 @@ public class sign_up extends AppCompatActivity {
         signupbtn = (Button)findViewById(R.id.signUpButton);
         progress = new ProgressDialog(this);
         newuser = FirebaseAuth.getInstance();
-        user = FirebaseAuth.getInstance().getCurrentUser();
-        id = user.getUid();
-        database = FirebaseDatabase.getInstance();
-        myref = database.getReferenceFromUrl("https://rentalappauth.firebaseio.com/").child(id);
-        ref = database.getReferenceFromUrl("https://rentalappauth.firebaseio.com/");
+        //user = FirebaseAuth.getInstance().getCurrentUser();
+        //id = user.getUid();
+        //database = FirebaseDatabase.getInstance();
+        //myref = database.getReferenceFromUrl("https://rentalappauth.firebaseio.com/").child(id);
+        //ref = database.getReferenceFromUrl("https://rentalappauth.firebaseio.com/");
         signupbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

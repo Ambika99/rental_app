@@ -60,14 +60,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent in = new Intent();
                 in.setClass(MainActivity.this,sign_up.class);
                 startActivity(in);
-                finish();
             }
         });
         progress = new ProgressDialog(this);
-        login = FirebaseAuth.getInstance();
+
+
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                login = FirebaseAuth.getInstance();
+
                 String emailid = email.getText().toString().trim();
                 String password = etpassword.getText().toString().trim();
                 if(TextUtils.isEmpty(emailid)|| TextUtils.isEmpty(password)){
@@ -100,5 +102,4 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
     }

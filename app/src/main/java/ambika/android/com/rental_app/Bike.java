@@ -1,8 +1,8 @@
 package ambika.android.com.rental_app;
 
+import android.app.Fragment;
 import android.content.Intent;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -43,8 +43,7 @@ public class Bike extends android.support.v4.app.Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),Price.class);
-                intent.putExtra("ID",2);
+                Intent intent = new Intent(getActivity(),bike_price.class);
                 startActivity(intent);
             }
         });

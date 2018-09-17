@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".non_vitian_form">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relLayout5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aadharNo"
+            android:text="aadhar card no. *"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/aadharNo"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox"
+            android:maxLength="12"
+            android:hint="Enter Your Aadhar Number Here"
+            android:id="@+id/aadharNoBox"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aadharNoBox"
+            android:layout_marginTop="10dp"
+            android:id="@+id/panNo"
+            android:text="pan card no. "
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/panNo"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox"
+            android:maxLength="12"
+            android:id="@+id/panNoBox"
+            android:paddingLeft="5dp"
+            android:hint="Enter Your Pan Card Number Here"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/panNoBox"
+            android:layout_marginTop="10dp"
+            android:id="@+id/licenseNo"
+            android:text="license no. *"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/licenseNo"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox"
+            android:maxLength="12"
+            android:id="@+id/licenseNoBox"
+            android:paddingLeft="5dp"
+            android:hint="Enter Your License Number Here"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note\nIt is mandatory to submit any ID proof and it will be kept for security purposes until the return of the vehicle."
+        android:layout_below="@+id/relLayout5"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/noteText"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/noteText"
+        android:layout_marginTop="50dp"
+        android:background="#5c8741"
+        android:text="confirm booking"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+</RelativeLayout>

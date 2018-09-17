@@ -9,12 +9,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-public class ImageAdapter extends PagerAdapter {
+public class ImageAdapter extends PagerAdapter{
 
     private Context context;
     private LayoutInflater layoutInflater;
-    private Integer[] imageArray = {
-            R.drawable.scooty, R.drawable.bike1, R.drawable.bullet1};
+    private Integer [] imageArray = {
+            R.drawable.scooty,R.drawable.bike1,R.drawable.bullet1};
 
     public ImageAdapter(Context context) {
         this.context = context;
@@ -34,7 +34,7 @@ public class ImageAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View itemView = layoutInflater.inflate(R.layout.slider_layout, container, false);
+        View itemView = layoutInflater.inflate(R.layout.slider_layout,container,false);
         ImageView imageView = (ImageView) itemView.findViewById(R.id.imageView);
         imageView.setImageResource(imageArray[position]);
         container.addView(itemView);

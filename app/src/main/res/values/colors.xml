@@ -11,5 +11,6 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorTransparent">#0000ffff</color>
     <color name="colorBackground">#fff8dc</color>
+    <color name="teal">#008080</color>
 
 </resources>

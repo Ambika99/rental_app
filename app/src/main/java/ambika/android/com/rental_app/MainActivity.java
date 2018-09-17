@@ -22,6 +22,8 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Map;
+
 public class MainActivity extends AppCompatActivity {
     EditText email,etpassword;
     Button btnlogin;
@@ -85,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                         progress.dismiss();
                         if(task.isSuccessful()){
                             Intent intent1 = new Intent();
-                            intent1.setClass(MainActivity.this, personal_details.class);
+                            intent1.setClass(MainActivity.this, bill.class);
                             startActivity(intent1);
                             finish();
                         }

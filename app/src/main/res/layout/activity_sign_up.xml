@@ -30,55 +30,13 @@
             android:layout_marginTop="10dp"
             android:id="@+id/signUp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="name"
-            android:textAllCaps="true"
-            android:layout_below="@+id/signUp"
-            android:id="@+id/name"
-            android:layout_marginTop="8dp"
-            android:textColor="#fff"
-            />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:background="@drawable/textbox"
-            android:layout_below="@+id/name"
-            android:layout_marginTop="10dp"
-            android:id="@+id/nameBox"
-            android:textColor="#fff"
-            android:paddingLeft="5dp"
-            android:hint="Enter Your Name Here"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mobile number"
-            android:textAllCaps="true"
-            android:layout_below="@+id/nameBox"
-            android:id="@+id/number"
-            android:layout_marginTop="8dp"
-            android:textColor="#fff"
-            />
-        <EditText
-            android:layout_height="40dp"
-            android:layout_width="match_parent"
-            android:background="@drawable/textbox"
-            android:layout_below="@+id/number"
-            android:layout_marginTop="5dp"
-            android:id="@+id/numberBox"
-            android:maxLength="10"
-            android:textColor="#fff"
-            android:paddingLeft="5dp"
-            android:hint="Enter Your Mobile No."
-            />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="E-Mail ID"
             android:textAllCaps="true"
-            android:layout_below="@+id/numberBox"
+            android:layout_below="@+id/signUp"
             android:id="@+id/email"
             android:layout_marginTop="8dp"
             android:textColor="#fff"

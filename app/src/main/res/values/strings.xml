@@ -1,5 +1,16 @@
 <resources>
-    <string name="app_name">rental_app</string>
-    <string name="title_activity_phone_verifivation">phone_verifivation</string>
-    <string name="google_API_Key">AIzaSyD5baHXb6XoFKeyzoyAAVl9zPzsigbUccM</string>
+    <string name="app_name">Grab&amp;Kick</string>
+    <string name="Close">Menu</string>
+    <string name="open">Book Your Ride</string>
+    <string name="duration_prompt">Choose Duration</string>
+
+    <string-array name="duration_arrays">
+        <item>Choose Duration</item>
+        <item>1</item>
+        <item>4</item>
+        <item>8</item>
+        <item>Day Pass</item>
+        <item>Week Pass</item>
+        <item>Month Pass</item>
+    </string-array>
 </resources>

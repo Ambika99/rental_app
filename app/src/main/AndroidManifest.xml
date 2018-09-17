@@ -16,17 +16,13 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD5baHXb6XoFKeyzoyAAVl9zPzsigbUccM" />
+            android:value="AIzaSyD2xHB9Fs0dRf56fQSgbBjAwe0-vgwd2LA" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".sign_up" />
         <activity android:name=".phone_verification" />
@@ -35,13 +31,30 @@
         <activity android:name=".personal_details" />
         <activity android:name=".home" />
         <activity android:name=".options" />
-        <activity android:name=".Bike" />
+        <activity android:name=".Bike" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".Details" />
         <activity android:name=".front" />
         <activity android:name=".my_rides" />
         <activity android:name=".Price" />
         <activity android:name=".RoyalEnfield" />
-        <activity android:name=".Scooter"></activity>
+        <activity android:name=".Scooter" />
+        <activity android:name=".Payment" />
+        <activity android:name=".about_us" />
+        <activity android:name=".bike_price" />
+        <activity android:name=".bill" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".non_vitian_form" />
+        <activity android:name=".royal_enfield_price" />
+        <activity android:name=".scooter_price" />
+        <activity android:name=".splasg_screen" />
+        <activity android:name=".splash_screen" />
+        <activity android:name=".vitian_form"></activity>
     </application>
 
 </manifest>
